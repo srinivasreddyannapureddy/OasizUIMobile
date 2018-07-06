@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Oasizium App",
+    "description": "Oasizium app for both ios and android",
+    "slug": "water-app",
+    "privacy": "public",
+    "sdkVersion": "22.0.0",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "notification": {
+      "icon": "./assets/sample-icon.png"
+    },
+    "icon": "./assets/sample-icon.png",
+    "packagerOpts": {
+      "assetExts": [
+        "ttf",
+        "mp4"
+      ]
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.water.app"
+    },
+    "android": {
+      "package": "com.water.app",
+      "versionCode": 6,
+      "permissions": []
+    },
+    "scheme": "exp9afa4794edec4a3196cc0f87a945edbf",
+    "detach": {
+      "scheme": "exp9fa9e97f6b2041e6aa1708af2d680d1b",
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.0.4-sdk22.0.0-10110e7c-e9b1-43e6-b7e0-8a0e971480e8.tar.gz"
+    }
+  }
+}
